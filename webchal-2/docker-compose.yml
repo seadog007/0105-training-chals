@@ -2,6 +2,6 @@ services:
   python:
     build: ./code
     volumes:
-      - ./flag:/flag/
+      - ./flag:/flag.txt
     ports:
       - 8080:5000
