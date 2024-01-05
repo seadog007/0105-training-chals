@@ -1,0 +1,5 @@
+services:
+  python:
+    build: ./code
+    volumes:
+      - ./flag:/flag/
