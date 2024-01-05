@@ -3,3 +3,5 @@ services:
     build: ./code
     volumes:
       - ./flag:/flag/
+    ports:
+      - 8080:5000
